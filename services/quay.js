@@ -1,3 +1,7 @@
+/**
+ * Created by badayaa on 3/6/16.
+ */
+
 // imports
 var request = require('request'),
     config = require('../config/config.js');

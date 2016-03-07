@@ -1,3 +1,6 @@
+/**
+ * Created by badayaa on 3/6/16.
+ */
 //imports
 var quayio = require('../services/quay.js'),
     config = require('../config/config.js'),

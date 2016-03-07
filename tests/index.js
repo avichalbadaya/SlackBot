@@ -1,4 +1,10 @@
+/**
+ * Created by badayaa on 3/6/16.
+ */
+//imports
 var request = require('supertest');
+
+//basic tests for express app
 describe('express app test', function () {
     var server;
     beforeEach(function () {

@@ -1,3 +1,8 @@
+/**
+ * Created by badayaa on 3/6/16.
+ */
+
+//used by our inhouse tool servo for indentifying node app
 {
   "resources": {
     "MyApp": {
