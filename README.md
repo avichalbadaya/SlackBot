@@ -5,6 +5,8 @@ Slack Bot for automating Quay.io tasks
 1. Create repositories in Quay.io under given organization with public/private visibility and user defined description.
 2. Set Quay authorization token, Quay api url, Quay api timeout, default repository name,
 repository description and default visibility.
+3. For all other keywords/commands, bot will respond back with help text. 
+4. This bot should respond back with error messages incase there was any problem while creating repository. 
 
 # Initial Preparation
 - Create a bot user in slack (https://my.slack.com/services/new/bot) and put Auth token generated in ./config/config.js SLACKTOKEN variable. You can add this bot as Direct Message contact in your Slack or add it to any channel from where you would like to pass commands to this bot.
