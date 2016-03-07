@@ -1,0 +1,20 @@
+{
+  "name": "slackbot",
+  "version": "1.0.0",
+  "description": "Slack bot to create Repositories in quay ",
+  "main": "server.js",
+  "author": "Avichal Badaya",
+  "license": "ISC",
+  "engines": {
+    "node": "5.1.1",
+    "npm": "3.3.12"
+  },
+  "dependencies": {
+    "botkit": "0.0.7",
+    "express": "^4.13.3",
+    "mocha": "^2.4.5",
+    "request": "^2.69.0",
+    "should": "^8.2.2",
+    "supertest": "^1.2.0"
+  }
+}
