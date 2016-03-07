@@ -9,7 +9,7 @@ repository description and default visibility.
 # Initial Preparation
 - Create a bot user in slack (https://my.slack.com/services/new/bot) and put Auth token generated in ./config/config.js SLACKTOKEN variable. You can add this bot as Direct Message contact in your Slack or add it to any channel from where you would like to pass commands to this bot.
 - Create a application in your Quay.io Org and generate a auth token which has permission to create repositories. Put Auth token generated in ./config/config.js QUAYTOKEN variable . Ref Link http://docs.quay.io/api/ to generate token.
-- Once we are done with adding bot and putting correct tokens in config file, we are good for moving ahead with installation process.
+- Once we are done with adding bot and putting correct tokens in config file (config/config.js), we are good for moving ahead with installation process.
 
 # Installation
 
